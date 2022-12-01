@@ -32,7 +32,8 @@ button {
   user-select: none;
 }
 /* Html */
-html {
+html,
+body {
   overflow-x: hidden;
 }
 /* Body */
@@ -42,8 +43,6 @@ body {
   font-family: var(--main-font);
 
   background-color: var(--Pale-blue);
-
-  overflow-x: hidden;
 
   position: relative;
   z-index: -4000;
@@ -61,6 +60,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   position: relative;
   z-index: -3000;
@@ -264,22 +264,13 @@ main .attribution {
 
 /* Slider Start*/
 main .slider {
-  position: absolute;
-  top: 325px;
-
-  z-index: -2000;
-}
-/* Small Screens */
-@media (max-width: 580px) {
-  main .slider {
-    top: 633px;
-  }
+  position: relative;
 }
 main .slider span {
   font-size: 50px;
   font-weight: 900;
 
-  position: absolute;
+  position: relative;
 
   color: var(--Dark-blue);
   transition: color 0.3s;
@@ -290,26 +281,17 @@ main .slider span {
 /* Small Screens */
 @media (max-width: 580px) {
   main .slider span {
-    font-size: 25px;
+    font-size: 28px;
   }
 }
 main .slider span:hover {
   color: #766cf1;
 }
 .slider .right-arrow {
-  right: -280px;
+  right: -20px;
 }
 .slider .left-arrow {
-  left: -280px;
-}
-/* Small Screens */
-@media (max-width: 580px) {
-  .slider .right-arrow {
-    right: -40px;
-  }
-  .slider .left-arrow {
-    left: -40px;
-  }
+  left: -20px;
 }
 .slider span.disabled {
   color: hsl(223deg 18% 65%) !important;
