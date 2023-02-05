@@ -5,7 +5,21 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Screenshot
 
 ![Desktop view](/screenshots/img-1.png)
-![Mobile view](/screenshots/img-2.png)
-![Attribution](/screenshots/img-3.png)
 
-## Demo: https://muhammad-adam778.github.io/Order-summary-component/
+### Demo: 
+https://muhammad-abdusalam.github.io/Order-summary-component/
+
+### Built with ⚒️
+
+- HTML
+- CSS
+- JS
+
+### Author
+
+- Frontend Mentor - [@Muhammad-adam778](https://www.frontendmentor.io/profile/Muhammad-adam778)
+- Linkedin - [@muhammad-abdusalam](https://www.linkedin.com/in/muhammad-abdusalam)
+
+
+
+
